@@ -90,21 +90,17 @@ After dragging the folder into your project:
 
 ## Usage Workflow (Important!) / 使用流程（重要！）
 
-1. **Open the Tool / 打开工具:**
-   Go to `Tools > Noise Generator`.
-   点击菜单栏 `Tools > Noise Generator`。
-
-2. **Initialize / 初始化:**
+1. **Initialize / 初始化:**
    **Click the "Generate Noise" button first.**
    **首先点击 "Generate Noise" 按钮。**
    > *Note: Parameters are locked and export is disabled until the initial noise is generated.*
    > *注意：在生成初始噪声之前，所有参数均被锁定，且无法导出文件。*
 
-3. **Tweak & Preview / 调整与预览:**
+2. **Tweak & Preview / 调整与预览:**
    Once generated, you can adjust sliders in real-time to see changes in the preview window.
    生成完毕后，你可以实时拖动滑块调整参数，并在预览窗口即时查看体积云的变化。
 
-4. **Export / 导出:**
+3. **Export / 导出:**
    Click **"Export as DDS"** to generate the final `.dds` volume texture.
    点击 **"Export as DDS"** 导出最终的 `.dds` 体积纹理文件。
 

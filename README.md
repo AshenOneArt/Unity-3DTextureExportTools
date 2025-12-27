@@ -6,6 +6,20 @@ A lightweight, robust Unity Editor tool for generating, previewing, and exportin
 **[中文]**
 一个轻量的 Unity 编辑器工具，专为体积云渲染设计，用于生成、预览和导出 3D 噪声纹理（Volume Textures）。
 
+## Compatibility / 版本兼容性
+
+* **Verified Environment (已验证环境):**
+    * **Unity Version:** 2022.3.62f1
+    * **Graphics API:** DirectX 11
+    * **Pipeline:** HDRP (High Definition Render Pipeline)
+        *(Note: Shader code is based on HDRP architecture. / 注：Shader 代码基于 HDRP 架构编写)*
+
+* **Disclaimer (声明):**
+    * This tool has currently **only** been tested on the specific version listed above.
+    * Compatibility with other Unity versions (e.g., Unity 6, 2021 LTS) or other Graphics APIs (Vulkan, Metal, OpenGL) is **unknown** and not guaranteed.
+    * 本工具目前**仅**在上述特定版本中进行过测试。
+    * 对于其他 Unity 版本（如 Unity 6, 2021 LTS）或其他图形 API（Vulkan, Metal, OpenGL）的兼容性**未知**，暂不提供保证。
+
 ![Tool Preview](Documentation/preview.png)
 
 ---
@@ -26,19 +40,32 @@ If you simply want to use the tool without opening the Unity Editor, you can dow
 
 ---
 
-## Compatibility / 版本兼容性
+## Integration (Source Code) / 源码集成（源码版）
 
-* **Verified Environment (已验证环境):**
-    * **Unity Version:** 2022.3.62f1
-    * **Graphics API:** DirectX 11
-    * **Pipeline:** HDRP (High Definition Render Pipeline)
-        *(Note: Shader code is based on HDRP architecture. / 注：Shader 代码基于 HDRP 架构编写)*
+If you want to use the tool inside your Unity project (as an Editor Window):
+如果您需要在 Unity 项目内部使用此工具（作为编辑器窗口）：
 
-* **Disclaimer (声明):**
-    * This tool has currently **only** been tested on the specific version listed above.
-    * Compatibility with other Unity versions (e.g., Unity 6, 2021 LTS) or other Graphics APIs (Vulkan, Metal, OpenGL) is **unknown** and not guaranteed.
-    * 本工具目前**仅**在上述特定版本中进行过测试。
-    * 对于其他 Unity 版本（如 Unity 6, 2021 LTS）或其他图形 API（Vulkan, Metal, OpenGL）的兼容性**未知**，暂不提供保证。
+1.  **Download Source:** Click `Code` -> `Download ZIP` (or download `Source code (zip)` from Releases).
+    * **下载源码：** 点击 GitHub 页面绿色的 `Code` 按钮 -> `Download ZIP`（或在 Releases 页面下载源码包）。
+
+2.  **Install:** Unzip the file, find the **`VolumeCloud`** folder, and drag it directly into your project's **`Assets`** directory.
+    * **安装：** 解压文件，找到 **`VolumeCloud`** 文件夹，将其直接拖入您 Unity 项目的 **`Assets`** 目录下。
+---
+
+## Quick Start (Source Code) / 快速开始（源码版）
+
+After dragging the folder into your project:
+将文件夹拖入项目后：
+
+1.  **Open Scene:** Click the top menu **`VolumeCloud`** -> **`Open Runtime Noise Generator Scene`**.
+    * **打开场景：** 点击顶部菜单栏的 **`VolumeCloud`** -> **`Open Runtime Noise Generator Scene`**。
+    * *(This menu item automatically locates and opens the tool's specific scene file. / 该菜单项会自动定位并打开工具专用的场景文件。)*
+
+2.  **Run:** Press the **Play (▶)** button in the Unity Editor.
+    * **运行：** 点击 Unity 编辑器的 **Play (▶)** 运行按钮。
+
+3.  **Ready:** The tool UI will appear in the **Game View**. You can now start generating noise.
+    * **就绪：** 工具 UI 将显示在 **Game View（游戏视图）** 中，您现在可以开始生成噪声了。
 
 ## Features / 功能特性
 

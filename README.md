@@ -87,7 +87,7 @@ When the scene is running, the tool uses a "Roaming Camera" similar to Scene Vie
     * 光标**显示**，视角旋转**锁定**。
     * 在此模式下，您可以点击按钮或拖拽调整 UI 参数。
 
-### ⌨️ Movement Keys / 移动按键
+### Movement Keys / 移动按键
 
 * **`W / S / A / D`**: Move Forward / Backward / Left / Right (前后左右移动)
 * **`Q / E`**: Move Down / Up (垂直升降)
